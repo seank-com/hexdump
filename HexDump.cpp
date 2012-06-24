@@ -22,8 +22,8 @@ char GetHexChar(char val)
 
 char GetCommentChar(char ch)
 {
-    if (ch < 32) return '?';
-    if (ch > 126) return '?';
+    if (ch < 32) return '.';
+    if (ch > 126) return '.';
     return ch;
 }
 
