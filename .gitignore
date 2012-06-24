@@ -10,3 +10,12 @@
 *.lai
 *.la
 *.a
+
+# windows object files
+*.obj
+
+# windows debug info files
+*.pdb
+
+# windows incremental linking files
+*.ilk
